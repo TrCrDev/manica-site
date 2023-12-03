@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.header h1, .header h2, .main-content h3, .main-content p {
+  margin: 10px 0; 
+}
+
+
+.concept-section{
+  margin-bottom: 100px;
+}
+
+.line-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+}
+
+.right-line {
+  position: absolute;
+  left: 50%;
+  height: 2px; 
+  width: 50%;
+  background-color: black; 
+}
+
+.slogan {
+  margin: 10px 0;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.slogan::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 1px;
+  width: 70%;
+  background-color: black;
+  position: absolute;
+  left: 15%;
+  bottom: -10px;
+}
+
+.description {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 500px; 
+}
+
+
+.small-centered-image {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 150px; 
+}
+
+
+.rdv-section, .showroom-section{
+  margin: 0 0 100px;
+}
+
+.img-section{
+  margin: 0 0 200px;
+}
+
+
+.rdv-image{
+  margin-bottom: 20px;
+  width: 200px;
+  max-width: 95%;
+}
+
+.showroom-image{
+  margin-bottom: 10px;
+  width: 300px;
+  max-width: 95%;
+}
+
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+}
+
+.icon{
+  margin-top: 35px;
+}
+
+.icon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100px;
+  height:100px;
+}
+
+.icon p {
+  text-align: center;
+}
