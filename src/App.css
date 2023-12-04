@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
 .App {
   text-align: center;
   display: flex;
@@ -60,8 +62,10 @@
 
 .description {
   width: 70%;
-  margin: 20px auto;
+  margin: 50px auto 50px auto;
   text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 24px;
 }
 
 
