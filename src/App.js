@@ -16,13 +16,14 @@ function App() {
         <div className="right-line"></div>
       </div>
 
+      <div className="space-100px"></div>
+
       
 
 
 
       <div className="concept-section">
-        <h3>NOTRE CONCEPT</h3>
-        <p className="slogan">“UN SAVOIR FAIRE SUR MESURE”</p>
+        <img src="1st.svg" alt="" className="title-image" />
         <p className="description">
           MANICA vous propose des créations de robes de mariée haut de gamme, à l’imaginaire infini. <br></br>
           Nous transformons vos idées, vos rêves et inspirations en des styles uniques qui reflètent votre personnalité. <br></br>
