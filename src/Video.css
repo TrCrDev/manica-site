@@ -1,0 +1,11 @@
+.video-container {
+    position: relative;
+    margin: 50px 0;
+  }
+  
+  .background-video {
+    max-width: 95%;
+    width: 900px;
+    height: auto;
+  }
+  

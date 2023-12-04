@@ -1,21 +1,22 @@
 import React from 'react';
 import './App.css';
+import VideoComponent from './Video';
 
 function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Manica Couture</h1>
-        <h2>LYON</h2>
+        <img src="title.svg" alt="" className="title-image" />
       </div>
+      <VideoComponent></VideoComponent>
       <div className="main-content">
-        <h3>CREATRICE DE ROBES DE MARIEE SUR MESURE</h3>
-        <p>L’univers du rêve et de l’élégance,</p>
-        <p>Où chaque robe est une œuvre d’art conçue spécialement pour vous.</p>
+        <img src="intro.svg" alt="" className="title-image" />
       </div>
       <div className="line-container">
         <div className="right-line"></div>
       </div>
+
+      
 
 
 
