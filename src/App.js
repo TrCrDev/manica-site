@@ -34,16 +34,21 @@ function App() {
 
 
 
+      <div className="space-100px"></div>
+
+
+
 
       <div className="concept-section">
-        <h3>UN SERVICE HAUT DE GAMME</h3>
-        <p className="slogan">“UNE ÉTROITE COLLABORATION”...</p>
+        <img src="2nd.svg" alt="" className="title-image2" />
         <p className="description">
         Au delà de la couture, c’est une vraie relation que nous partageons avec nos futures mariées, 
         guidées par l'engagement et le désir de créer la robe parfaite pour votre mariage.
         </p>
         <img src="2.png" alt="" className="centered-image" />
       </div>
+
+      <div className="space-100px"></div>
 
 
 
@@ -65,14 +70,17 @@ function App() {
         </p>
       </div>
 
+      <div className="space-100px"></div>
+
       <div className="img-section">
         <img src="3.png" alt="" className="centered-image"/>
       </div>
 
+      
+      <div className="space-100px"></div>
      
       <div className="concept-section">
-        <h3>AU SERVICE DE LA MARIÉE</h3>
-        <p className="slogan">“UNE RENCONTRE QUI CRÉE DU LIEN”</p>
+        <img src="3rd.svg" alt="" className="title-image2" />
         <p className="description">
         Tout au long du processus de la création de votre robe, 
         nous vous tiendrons informé à chaque étape, 
@@ -85,10 +93,11 @@ function App() {
 
 
 
+      <div className="space-250px"></div>
+
 
       <div className="concept-section">
-        <h3>DE LA QUALITÉ</h3>
-        <p className="slogan">“DÉTAILS, EXCELLENCE, HAUTE COUTIURE”</p>
+        <img src="4th.svg" alt="" className="title-image2" />
         <p className="description">
         L’excellence que nous mettons à votre service se manifeste à travers 
         la sélection minutieuse et soignée de nos tissus, dentelles, perles et ornements. <br></br><br></br>
@@ -101,8 +110,11 @@ function App() {
 
 
 
+      <div className="space-100px"></div>
+
       <div className="concept-section">
-        <h3>LA CRÉATRICE</h3>
+        <img src="5th.svg" alt="" className="title-image3" />
+        <div className="space-50px"></div>
         <img src="7.png" alt="" className="centered-image" />
         <p className="description">
         Après plusieurs années dédiées à sublimer la mariée, et animée par ma passion pour les robes parées de pierres et de lumières, 
@@ -116,15 +128,18 @@ function App() {
         Votre satisfaction est ma plus grande récompense, laissez moi vous accompagnez dans cette aventure.
         </p>
 
-        <img src="styled-text.svg" alt="" className="centered-image" />
+        <img src="6th.svg" alt="" className="title-image2" />
        
       </div>
+
+      <div className="space-100px"></div>
 
 
 
 
       <div className="concept-section">
-        <h3>NOS MARIÉS</h3>
+        <img src="7th.svg" alt="" className="title-image3" />
+        <div className="space-100px"></div>
         <img src="8.png" alt="" className="centered-image" />
 
 
@@ -209,11 +224,9 @@ function App() {
       </div>
 
       <div className="concept-section">
-        <h3>CONTACT</h3>
-        <p className="description">
-          Nous mettons tout en œuvre pour répondre rapidement à votre demande. 
-          N'hésitez pas à nous contacter pour toute question, chaque demande est importante pour nous.
-        </p>
+        <img src="8th.svg" alt="" className="title-image3" />
+        <div className="space-50px"></div>
+        <img src="help.svg" alt="" className="desc-image" />
         <div className="contact-icons">
           <div className="icon">
             <img src="whatsapp.png" alt="Whatsapp" />
@@ -231,7 +244,8 @@ function App() {
 
 
       <div className="concept-section">
-        <h3>SUIVEZ-NOUS</h3>
+      <img src="9th.svg" alt="" className="title-image4" />
+        <div className="space-50px"></div>
         <div className="contact-icons">
           <div className="icon">
             <img src="instagram.png" alt="Instagram" />

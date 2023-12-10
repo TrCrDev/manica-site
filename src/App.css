@@ -17,8 +17,20 @@
   margin: 10px 0; 
 }
 
+.space-50px{
+  height: 50px;
+}
+
 .space-100px{
   height: 100px;
+}
+
+.space-200px{
+  height: 200px;
+}
+
+.space-250px{
+  height: 250px;
 }
 
 
@@ -77,12 +89,45 @@
   width: 500px; 
 }
 
+
+.desc-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 600px; 
+}
+
 .title-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 95%;
   width: 500px; 
+}
+
+.title-image2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 700px; 
+}
+
+.title-image3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 300px; 
+}
+
+.title-image4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 400px; 
 }
 
 
