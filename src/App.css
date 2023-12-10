@@ -9,9 +9,46 @@
 }
 
 
+
+
+
+
+
 .header {
-  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; 
+  z-index: 1000;
 }
+
+.header-dummy {
+  flex: 1;
+}
+
+.header-title-image {
+  max-width: 80%;
+  width: 500px;
+  margin: 0 20px 0 20px;
+}
+
+.menu-icon-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.menu-icon {
+  width: 30px;
+  height: auto;
+}
+
+
 
 .header h1, .header h2, .main-content h3, .main-content p {
   margin: 10px 0; 
@@ -72,6 +109,13 @@
   bottom: -10px;
 }
 
+
+
+
+
+
+
+
 .description {
   width: 70%;
   margin: 50px auto 50px auto;
@@ -79,6 +123,8 @@
   font-family: 'Lora', serif;
   font-size: 24px;
 }
+
+
 
 
 .centered-image {
