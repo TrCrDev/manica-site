@@ -7,6 +7,8 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import FAQ from './FAQ';
 import Histoire from './Histoire';
+import Modal from './Modal';
+import Mail from './Mail';
 
 
 
@@ -15,7 +17,8 @@ function App() {
 
 
 
-
+  const [showModal, setShowModal] = useState(false);
+  const [showMail, setShowMail] = useState(false);
 
   const [currentPage, setCurrentPage] = useState('accueil');
 
@@ -49,6 +52,8 @@ function App() {
 
   return (
     <div className="App">
+      <Modal showModal={showModal} setShowModal={setShowModal} />
+      <Mail showMail={showMail} setShowMail={setShowMail} />
 
 
 
@@ -391,11 +396,11 @@ function App() {
         <div className="space-50px"></div>
         <img src="help.svg" alt="" className="desc-image" data-aos="zoom-in" data-aos-duration="1000"/>
         <div className="contact-icons">
-          <div className="icon">
-            <img src="whatsapp.png" alt="Whatsapp" />
-            <p><strong>Whatsapp</strong></p>
-          </div>
-          <div className="icon">
+        <div className="icon" onClick={() => setShowModal(true)}>
+          <img src="whatsapp.png" alt="Whatsapp" />
+          <p><strong>Whatsapp</strong></p>
+        </div>
+          <div className="icon" onClick={() => setShowMail(true)}>
             <img src="mail.png" alt="Email" />
             <p><strong>Email</strong></p>
           </div>
