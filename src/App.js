@@ -24,17 +24,17 @@ function App() {
         </div>
       </div>
       <div className="space-100px"></div>
-      <div data-aos="fade-up" data-aos-duration="3000">
+      <div>
       <VideoComponent></VideoComponent>
       </div>
 
       <div className="space-100px"></div>
 
       <div className="main-content">
-        <img src="intro.svg" alt="" className="title-image" data-aos="fade-up" data-aos-duration="3000"/>
+        <img src="intro.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="1000"/>
       </div>
       <div className="space-50px"></div>
-      <div className="line-container" data-aos="fade-up" data-aos-duration="1500" >
+      <div className="line-container" data-aos="zoom-in" data-aos-duration="1000" >
         <div className="right-line"></div>
       </div>
 
@@ -45,21 +45,21 @@ function App() {
 
 
       <div className="concept-section">
-        <img src="1st.svg" alt="" className="title-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="1st.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="1000" />
         <div className="description">
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" >
             MANICA vous propose des créations de robes de mariée haut de gamme, à l’imaginaire infini.
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
             Nous transformons vos idées, vos rêves et inspirations en des styles uniques qui reflètent votre personnalité.
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600"  >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
             Votre robe de mariée devient une réalité sur mesure, conçue spécialement pour vous.
           </div>
         </div>
 
 
-        <img src="1.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800" />
+        <img src="1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800" />
       </div>
 
 
@@ -70,17 +70,17 @@ function App() {
 
 
       <div className="concept-section">
-        <img src="2nd.svg" alt="" className="title-image2" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="2nd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000" />
         <div className="description">
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
           Au delà de la couture, c’est une vraie relation que nous partageons avec nos futures mariées, 
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" >
           guidées par l'engagement et le désir de créer la robe parfaite pour votre mariage.
           </div>
 
         </div>
-        <img src="2.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="2.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
       </div>
 
       <div className="space-100px"></div>
@@ -89,12 +89,12 @@ function App() {
 
 
       <div className="rdv-section">
-        <img src="rdv-title.svg" alt="" className="rdv-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="rdv-title.svg" alt="" className="rdv-image" data-aos="fade-right" data-aos-duration="1000" />
         <div className="description">
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
             Notre premier rendez-vous téléphonique nous permettra grâce à un échange intense de vous proposer <br></br>
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" >
           les premières bases de la conception de votre robe et de programmer une rencontre au show room.
           </div>
         
@@ -103,12 +103,12 @@ function App() {
 
 
       <div className="showroom-section">
-        <img src="showroom-title.svg" alt="" className="showroom-image"data-aos="fade-up" data-aos-duration="3000" />
+        <img src="showroom-title.svg" alt="" className="showroom-image"data-aos="fade-left" data-aos-duration="1000" />
         <div className="description">
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
           Ensemble, nous sélectionnerons les matières et prendrons vos mesures. <br></br>
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600" >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" >
           Il est essentiel pour nous d'accorder du temps et de l'importance aux moindres détails, créant ainsi une pièce d'exception.
           </div>
           
@@ -120,21 +120,21 @@ function App() {
       <div className="space-100px"></div>
 
       <div className="img-section">
-        <img src="3.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600"  />
+        <img src="3.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  />
       </div>
 
       
       <div className="space-100px"></div>
      
       <div className="concept-section">
-        <img src="3rd.svg" alt="" className="title-image2" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="3rd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="description">
 
-        <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400"  >
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
         Tout au long du processus de la création de votre robe, 
         nous vous tiendrons informé à chaque étape, 
           </div>
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600"  >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
           et vous offrons la possibilité de la suivre visuellement en temps réel, 
         garantissant ainsi une expérience transparente et personnalisée. 
           </div>
@@ -142,7 +142,7 @@ function App() {
 
 
         </div>
-        <img src="4.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="4.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
       </div>
 
 
@@ -151,23 +151,23 @@ function App() {
 
 
       <div className="concept-section">
-        <img src="4th.svg" alt="" className="title-image2" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="4th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="description">
-        <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400"  >
-        L’excellence que nous mettons à votre service se manifeste à travers 
-        la sélection minutieuse et soignée de nos tissus, dentelles, perles et ornements. <br></br><br></br>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
+        l’Excellence que nous mettons à votre service se manifeste à travers 
+     la sélection minutieuse et soignée de nos tissus, dentelles, perles et ornements. <br></br><br></br>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600"  >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
           Chaque robe, une oeuvre perlée à la main, pour une élégance unique et artisanale.  
           </div>
 
 
         
         </div>
-        <img src="5.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="5.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
         <br></br><br></br>
-        <img src="6.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="6.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
       </div>
 
 
@@ -175,29 +175,29 @@ function App() {
       <div className="space-100px"></div>
 
       <div className="concept-section">
-        <img src="5th.svg" alt="" className="title-image3" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="5th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="space-50px"></div>
-        <img src="7.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="7.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="description">
 
 
-        <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400"  >
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
         Après plusieurs années dédiées à sublimer la mariée, et animée par ma passion pour les robes parées de pierres et de lumières, 
         j'ai développé un savoir-faire et une expérience qui me permet de satisfaire nos clientes et de contribuer au plus beau jour de leur vie.<br></br>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600"  >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
           On prend vos idées, vos rêves et vos inspirations, et je donnerai vie à votre robe pour qu’elle soit le reflet de votre personnalité.<br></br><br></br>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800"  >
+          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
           Située sur la région Lyonnaise, je vous accueille dans un cadre chaleureux et convivial où mon soucis du détail 
         et mon professionnalisme nous permettrons de concrétiser votre projet. <br></br><br></br> </div>
 
 
 
 
-        <div data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800"  >
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
         Votre satisfaction est ma plus grande récompense, laissez moi vous accompagnez dans cette aventure.
           </div>
 
@@ -205,7 +205,7 @@ function App() {
        
         </div>
 
-        <img src="6th.svg" alt="" className="title-image2" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="6th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
        
       </div>
 
@@ -215,81 +215,81 @@ function App() {
 
 
       <div className="concept-section">
-        <img src="7th.svg" alt="" className="title-image3" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="7th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="space-100px"></div>
-        <img src="8.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="8.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
-        <img src="ny.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="ny.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         MANICA c’est avant tout une très belle rencontre...
         Passionnée par son métier et ultra douée pour donner vie à la robe que j’avais imaginé.<br></br>
         Des échanges et conseils sur la création, en passant par la prise de mesures, le suivi de la fabrication à l’atelier, jusqu’à l’essayage, tout à été parfait !<br></br>
         Osez franchir le pas de la création et personnalisation, votre robe sera unique comme cette journée que vous apprêtez à vivre !
         Je la recommande les yeux fermés ! 
         </p>
-        <img src="9.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="9.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
-        <img src="yv.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="yv.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         Un grand MERCI à MANICA d’avoir réalisé ma magnifique robe de mariée sur mesure et personnalisée.<br></br>
         Un accompagnement au top, de la confection de la robe, du choix du tissu jusqu’au jour du mariage, j’ai eu de la chance de l’avoir à mes côtés.<br></br>
         Ma robe a fait son effet et j’en suis encore très reconnaissante.
         Un énorme MERCI MANICA ! 
         </p>
-        <img src="10.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="10.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
-        <img src="my.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="my.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         Un grand MERCI à MANICA d’avoir réalisé ma magnifique robe de mariée sur mesure et personnalisée.<br></br>
         Un accompagnement au top, de la confection de la robe, du choix du tissu jusqu’au jour du mariage, j’ai eu de la chance de l’avoir à mes côtés.<br></br>
         Ma robe a fait son effet et j’en suis encore très reconnaissante.
         Un énorme MERCI MANICA ! 
         </p>
-        <img src="11.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="11.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
 
-        <img src="la.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="la.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         MANICA c’est avant tout une très belle rencontre...
         Passionnée par son métier et ultra douée pour donner vie à la robe que j’avais imaginé.<br></br>
         Des échanges et conseils sur la création, en passant par la prise de mesures, le suivi de la fabrication à l’atelier, jusqu’à l’essayage, tout à été parfait !<br></br>
         Osez franchir le pas de la création et personnalisation, votre robe sera unique comme cette journée que vous apprêtez à vivre !
         Je la recommande les yeux fermés ! 
         </p>
-        <img src="12.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000" />
+        <img src="12.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
 
 
 
-        <img src="lo.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="lo.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         Pas de mots, simplementt et clairement incroyable !!
         Je n’ai pas hésité à faire confectionner ma robe de mariée sirène sur mesure par MANICA.<br></br>
         Son service irréprochable, sa bienveillance très appréciée et ses rassurants conseils m’ont permis de voir venir le jour J arriver avec plus de confiance !<br></br>
         Merci pour tout, je recommande ses services.<br></br>
         Je suis venue de LAUSANNE sans regret !
         </p>
-        <img src="13.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="13.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
 
 
-        <img src="ju.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000"  />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="ju.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         Je recommande MANICA à 1000% la meilleure créatrice de robes de mariée.<br></br>
         Les matières et les détails de ma robe sont exceptionnels !<br></br>
         Merci pour tout ! 
         </p>
-        <img src="14.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="3000"  />
+        <img src="14.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
 
 
-        <img src="el.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="3000" />
-        <p className="description" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">
+        <img src="el.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <p className="description" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
         J’ai  fais appel aux services de MANICA pour ma robe de mariée sur mesure.<br></br>
         J’ai été très satisfaite. <br></br>
         J’ai eu la robe de princesse que je voulais tant.<br></br>
@@ -300,10 +300,10 @@ function App() {
 
       </div>
 
-      <div className="concept-section" data-aos="fade-up" data-aos-duration="3000" >
+      <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
         <img src="8th.svg" alt="" className="title-image3" />
         <div className="space-50px"></div>
-        <img src="help.svg" alt="" className="desc-image" data-aos="fade-up" data-aos-duration="3000"/>
+        <img src="help.svg" alt="" className="desc-image" data-aos="zoom-in" data-aos-duration="1000"/>
         <div className="contact-icons">
           <div className="icon">
             <img src="whatsapp.png" alt="Whatsapp" />
@@ -320,7 +320,7 @@ function App() {
 
 
 
-      <div className="concept-section" data-aos="fade-up" data-aos-duration="3000" >
+      <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
       <img src="9th.svg" alt="" className="title-image4" />
         <div className="space-50px"></div>
         <div className="contact-icons">
