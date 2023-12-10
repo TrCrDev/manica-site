@@ -230,3 +230,11 @@
 .icon p {
   text-align: center;
 }
+
+.my-carousel {
+  max-width: 95%;
+  width: 500px; 
+  margin: 0 auto; 
+}
+
+
