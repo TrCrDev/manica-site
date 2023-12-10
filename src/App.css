@@ -233,8 +233,14 @@
 
 .my-carousel {
   max-width: 95%;
-  width: 500px; 
+  width: 400px; 
   margin: 0 auto; 
 }
 
+
+.carousel {
+  max-width: 95%;
+  width: 500px; 
+  margin: 0 auto; 
+}
 

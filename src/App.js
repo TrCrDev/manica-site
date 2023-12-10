@@ -149,7 +149,7 @@ function App() {
         </div>
 
 
-
+<div className="carousel">
         <Carousel
         showArrows={true}
         autoPlay={true}
@@ -161,7 +161,7 @@ function App() {
         <div>
           <img src="5.png" alt="" className="centered-image" />
         </div>
-      </Carousel>
+      </Carousel></div>
 
         
       </div>
