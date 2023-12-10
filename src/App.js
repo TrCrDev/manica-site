@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import VideoComponent from './Video';
 import AOS from 'aos';
@@ -10,14 +10,25 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 
 
 function App() {
-  
 
+
+  
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = 3;
 
   useEffect(() => {
     AOS.init({
       duration: 500,
-    })
+    });
   }, []);
+
+  const goToPrevSlide = () => {
+    setCurrentSlide(currentSlide - 1 >= 0 ? currentSlide - 1 : totalSlides - 1);
+  };
+
+  const goToNextSlide = () => {
+    setCurrentSlide(currentSlide + 1 < totalSlides ? currentSlide + 1 : 0);
+  };
 
   return (
     <div className="App">
@@ -32,6 +43,14 @@ function App() {
       <div data-aos="fade-up" data-aos-duration="2000">
       <VideoComponent></VideoComponent>
       </div>
+
+
+
+
+
+
+
+
 
       <div className="space-100px"></div>
 
@@ -144,24 +163,34 @@ function App() {
         garantissant ainsi une expérience transparente et personnalisée. 
           </div>
 
-
-
-        </div>
-
-
-<div className="carousel">
+          <div className="space-100px"></div>
+          <div className="carousel-container">
         <Carousel
-        showArrows={true}
-        autoPlay={true}
-        infiniteLoop={true}
-        className="my-carousel">
-        <div>
-          <img src="4.png" alt="" className="centered-image"  />
+          selectedItem={currentSlide}
+          onChange={(index) => setCurrentSlide(index)}
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          centerMode={true}
+          centerSlidePercentage={80}
+          className="my-carousel"
+        >
+          <div><img src="5.png" alt="" className="centered-image-carousel" /></div>
+          <div><img src="3.png" alt="" className="centered-image-carousel" /></div>
+          <div><img src="4.png" alt="" className="centered-image-carousel" /></div>
+        </Carousel>
+        <button onClick={goToPrevSlide} className="arrow-prev">
+          <img src="left.png" alt="Prev" />
+        </button>
+        <button onClick={goToNextSlide} className="arrow-next">
+          <img src="right.png" alt="Next" />
+        </button>
+      </div>
+
         </div>
-        <div>
-          <img src="5.png" alt="" className="centered-image" />
-        </div>
-      </Carousel></div>
+
+
+
 
         
       </div>
@@ -239,6 +268,7 @@ function App() {
         <img src="7th.svg" alt="" className="title-image3" data-aos="fade-up" data-aos-duration="2000"  />
         <div className="space-100px"></div>
         <img src="8.png" alt="" className="centered-image" data-aos="fade-up" data-aos-duration="2000"  />
+
 
 
         <img src="ny.svg" alt="" className="small-centered-image" data-aos="fade-up" data-aos-duration="2000"  />
