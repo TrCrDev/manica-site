@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+  .faq-content, h1 {
+    font-family: 'Lora', serif;
+  }
+  
+  .space-200px {
+    height: 200px;
+  }
+  
+  .space-50px {
+    height: 50px;
+  }
+  

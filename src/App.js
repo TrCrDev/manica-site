@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import FAQ from './FAQ';
+import Histoire from './Histoire';
 
 
 
@@ -12,7 +14,22 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 function App() {
 
 
-  
+
+
+
+  const [currentPage, setCurrentPage] = useState('accueil');
+
+
+  const navigateTo = (page) => {
+    setCurrentPage(page);
+    setIsMenuOpen(false);
+  };
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = 3;
 
@@ -32,17 +49,40 @@ function App() {
 
   return (
     <div className="App">
-      <div className="header">
-        <div className="header-dummy"></div>
-        <img src="title.svg" alt="" className="header-title-image" />
-        <div className="menu-icon-container">
-          <img src="menu.svg" alt="Menu" className="menu-icon" />
+
+
+
+
+<div className="site-header">
+        <div className="header">
+          <img src="title.svg" alt="Title" className="header-title-image" />
+          <div className="menu-icon-container" onClick={toggleMenu}>
+            <img src="menu.svg" alt="Menu" className="menu-icon" />
+          </div>
         </div>
+        <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
+          <ul>
+            <li onClick={() => navigateTo('accueil')}>Accueil</li>
+            <li onClick={() => navigateTo('mon-histoire')}>Mon Histoire</li>
+            <li onClick={() => navigateTo('faq')}>FAQ</li>
+          </ul>
+        </nav>
+        <div className="space-30px"></div>
       </div>
-      <div className="space-100px"></div>
+
+
+      {currentPage === 'mon-histoire' ? (
+  <Histoire />
+) : currentPage === 'faq' ? (
+  <FAQ />
+) : (
+  <>
+      <div className="space-200px"></div>
+      <div className="space-50px"></div>
       <div data-aos="fade-up" data-aos-duration="2000">
       <VideoComponent></VideoComponent>
       </div>
+
 
 
 
@@ -388,6 +428,8 @@ function App() {
 
 
 
+      </>
+      )}
     </div>
   );
 }
