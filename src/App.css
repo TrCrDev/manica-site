@@ -28,6 +28,8 @@
   cursor: pointer; 
   font-family: 'Lora', serif;
   font-size: 24px;
+  color: #fff;
+
 }
 
 
@@ -37,11 +39,13 @@
   opacity: 0;
   visibility: hidden;
   transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s;
+  color: #fff;
 }
 
 .nav-menu.open {
   max-height: 500px;
   opacity: 1;
+  background-color: black;
   visibility: visible;
 }
 
@@ -171,7 +175,6 @@
   font-size: 15px;
   word-spacing: 6px;
 }
-
 
 
 .description-creatrice {

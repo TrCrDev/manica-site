@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
 
 
-  .faq-content, h1 {
+  .faq-content, h3 {
     font-family: 'Lora', serif;
   }
-  
+  .title-faq {
+    display: block;
+    word-spacing: 6px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+   
   .space-200px {
     height: 200px;
   }

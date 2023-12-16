@@ -4,11 +4,9 @@ import './FAQ.css';
 const FAQ = () => {
   return (
     <div>
-      <div className="space-200px"></div>
+≈      <div className="space-50px"></div>
       <div className="space-50px"></div>
-      <div className="space-50px"></div>
-      <h1>FAQ</h1>
-      
+      <h3 className='title-faq'>Questions fréquentes</h3>
 
       <div className="faq-content">
         <h2>Est-il possible de créer une robe de mariée si je n’habite pas à Lyon ?</h2>
