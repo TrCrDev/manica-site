@@ -1,6 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import VideoComponent from './Video';
+import VideoComponentPearl from './VideoPearl';
+import VideoComponentDressFinal from './VideoDressFinal';
+import VideoComponentDressPearlage from './VideoDressPearlage'
+import VideoComponentMarie from './VideoDressMarie'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Carousel } from 'react-responsive-carousel';
@@ -72,7 +76,6 @@ function App() {
             <li onClick={() => navigateTo('faq')}>FAQ</li>
           </ul>
         </nav>
-        <div className="space-30px"></div>
       </div>
 
 
@@ -82,22 +85,9 @@ function App() {
   <FAQ />
 ) : (
   <>
-      <div className="space-200px"></div>
-      <div className="space-50px"></div>
       <div data-aos="fade-up" data-aos-duration="2000">
       <VideoComponent></VideoComponent>
       </div>
-
-
-
-
-
-
-
-
-
-
-      <div className="space-100px"></div>
 
       <div className="main-content">
         <img src="intro.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="1000"/>
@@ -107,18 +97,13 @@ function App() {
         <div className="right-line"></div>
       </div>
 
-      <div className="space-100px"></div>
-
-      
-
-
-
       <div className="concept-section">
         <img src="1st.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="1000" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" >
             MANICA vous propose des créations de robes de mariée haut de gamme, à l’imaginaire infini.
           </div>
+          <div className='space-30px'></div>
           <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
             Nous transformons vos idées, vos rêves et inspirations en des styles uniques qui reflètent votre personnalité.
           </div>
@@ -128,15 +113,8 @@ function App() {
         </div>
 
 
-        <img src="1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800" />
+        <img src="1_1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800" />
       </div>
-
-
-
-      <div className="space-100px"></div>
-
-
-
 
       <div className="concept-section">
         <img src="2nd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000" />
@@ -151,11 +129,6 @@ function App() {
         </div>
         <img src="2.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
       </div>
-
-      <div className="space-100px"></div>
-
-
-
 
       <div className="rdv-section">
         <img src="rdv-title.svg" alt="" className="rdv-image" data-aos="fade-right" data-aos-duration="1000" />
@@ -177,69 +150,38 @@ function App() {
           <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" >
           Ensemble, nous sélectionnerons les matières et prendrons vos mesures. <br></br>
           </div>
+          <div className='space-30px'></div>
           <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" >
           Il est essentiel pour nous d'accorder du temps et de l'importance aux moindres détails, créant ainsi une pièce d'exception.
           </div>
-          
-        
-        
         </div>
       </div>
-
-      <div className="space-100px"></div>
-
+      <div className='space-30px'></div>
       <div className="img-section">
         <img src="3.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  />
       </div>
 
-      
-      <div className="space-100px"></div>
-     
+           
       <div className="concept-section">
         <img src="3rd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="description">
 
         <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
         Tout au long du processus de la création de votre robe, 
-        nous vous tiendrons informé à chaque étape, 
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
-          et vous offrons la possibilité de la suivre visuellement en temps réel, 
+        nous vous tiendrons informé à chaque étape, et vous offrons la possibilité de la suivre visuellement en temps réel, 
         garantissant ainsi une expérience transparente et personnalisée. 
           </div>
 
-          <div className="space-100px"></div>
-          <div className="carousel-container">
-        <Carousel
-          selectedItem={currentSlide}
-          onChange={(index) => setCurrentSlide(index)}
-          showThumbs={false}
-          showStatus={false}
-          infiniteLoop={true}
-          centerMode={true}
-          centerSlidePercentage={80}
-          className="my-carousel"
-        >
-          <div><img src="5.png" alt="" className="centered-image-carousel" /></div>
-          <div><img src="3.png" alt="" className="centered-image-carousel" /></div>
-          <div><img src="4.png" alt="" className="centered-image-carousel" /></div>
-        </Carousel>
-        <button onClick={goToPrevSlide} className="arrow-prev">
-          <img src="left.png" alt="Prev" />
-        </button>
-        <button onClick={goToNextSlide} className="arrow-next">
-          <img src="right.png" alt="Next" />
-        </button>
-      </div>
+          <div className="space-30px"></div>
 
         </div>
-        <img src="4.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <img src="4_1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <div className="space-30px"></div>
+        <img src="4_2.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
+          <VideoComponentDressFinal></VideoComponentDressFinal>
+          </div>
       </div>
-
-
-
-      <div className="space-250px"></div>
-
 
       <div className="concept-section">
         <img src="4th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
@@ -256,58 +198,94 @@ function App() {
 
         
         </div>
-        <img src="5.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
+        <VideoComponentPearl></VideoComponentPearl>
+          </div>
         <br></br><br></br>
-        <img src="6.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000" />
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
+        <VideoComponentDressPearlage></VideoComponentDressPearlage>
+          </div>
       </div>
 
 
 
-      <div className="space-100px"></div>
+      <div className="space-30px"></div>
 
       <div className="concept-section">
         <img src="5th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="1000"  />
         <div className="space-50px"></div>
         <img src="7.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
-        <div className="description">
+        <div className="description-creatrice">
 
 
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"  >
         Après plusieurs années dédiées à sublimer la mariée, et animée par ma passion pour les robes parées de pierres et de lumières, 
         j'ai développé un savoir-faire et une expérience qui me permet de satisfaire nos clientes et de contribuer au plus beau jour de leur vie.<br></br>
-          </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600"  >
           On prend vos idées, vos rêves et vos inspirations, et je donnerai vie à votre robe pour qu’elle soit le reflet de votre personnalité.<br></br><br></br>
-          </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
           Située sur la région Lyonnaise, je vous accueille dans un cadre chaleureux et convivial où mon soucis du détail 
-        et mon professionnalisme nous permettrons de concrétiser votre projet. <br></br><br></br> </div>
-
-
-
-
-        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
+        et mon professionnalisme nous permettrons de concrétiser votre projet. <br></br><br></br> 
         Votre satisfaction est ma plus grande récompense, laissez moi vous accompagnez dans cette aventure.
-          </div>
-
-
-       
         </div>
 
-        <img src="6th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
        
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
+        <img src="6th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="1000"  />
+        </div>
+
       </div>
 
-      <div className="space-100px"></div>
 
-
+      <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
+        <img src="prendrdv.png" alt="" className="title-image3" />
+        <div className="description-rdv">
+          Nous mettons tout en oeuvre pour répondre rapidement à votre demande.<br></br><br></br>Chaque demande est importante pour nous. 
+        </div>
+        <div className="contact-icons">
+        <div className="icon" onClick={() => setShowModal(true)}>
+          <img src="whatsapp.png" alt="Whatsapp" />
+          <p><strong>Whatsapp</strong></p>
+        </div>
+          <div className="icon" onClick={() => setShowMail(true)}>
+            <img src="mail.png" alt="Email" />
+            <p><strong>Email</strong></p>
+          </div>
+        </div>
+      </div>
 
 
       <div className="concept-section">
         <img src="7th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="1000"  />
-        <div className="space-100px"></div>
+        <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800"  >
+        <VideoComponentMarie></VideoComponentMarie>
+        </div>
+
+        <div className="space-30px"></div>
+        <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
+      <img src="follow.png" alt="" className="title-image4" />
+        <div className="space-50px"></div>
+        <div className="contact-icons">
+          <div className="icon">
+            <img src="instagram.png" alt="Instagram" />
+          </div>
+          <div className="icon">
+            <img src="facebook.png" alt="Facebook" />
+          </div>
+        </div>
+      </div>
+
+        <div className="space-30px"></div>
+        <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
+      <img src="parledenous.png" alt="" className="title-image4" />
+        <div className="space-50px"></div>
+        <div className="contact-icons">
+          <div className="icon">
+            <img src="recommariagenet.png" />
+          </div>
+        </div>
+      </div> 
+        <div className="space-30px"></div>
+
         <img src="8.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="1000"  />
 
 
@@ -391,38 +369,7 @@ function App() {
 
       </div>
 
-      <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
-        <img src="8th.svg" alt="" className="title-image3" />
-        <div className="space-50px"></div>
-        <img src="help.svg" alt="" className="desc-image" data-aos="zoom-in" data-aos-duration="1000"/>
-        <div className="contact-icons">
-        <div className="icon" onClick={() => setShowModal(true)}>
-          <img src="whatsapp.png" alt="Whatsapp" />
-          <p><strong>Whatsapp</strong></p>
-        </div>
-          <div className="icon" onClick={() => setShowMail(true)}>
-            <img src="mail.png" alt="Email" />
-            <p><strong>Email</strong></p>
-          </div>
-        </div>
-      </div>
 
-
-
-
-
-      <div className="concept-section" data-aos="zoom-in" data-aos-duration="1000" >
-      <img src="9th.svg" alt="" className="title-image4" />
-        <div className="space-50px"></div>
-        <div className="contact-icons">
-          <div className="icon">
-            <img src="instagram.png" alt="Instagram" />
-          </div>
-          <div className="icon">
-            <img src="facebook.png" alt="Facebook" />
-          </div>
-        </div>
-      </div>
 
 
 
