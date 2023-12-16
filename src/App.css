@@ -133,6 +133,14 @@
   background-color: black; 
 }
 
+.left-line {
+  position: absolute;
+  right: 50%;
+  height: 1px; 
+  width: 50%;
+  background-color: black; 
+}
+
 .slogan {
   margin: 10px 0;
   position: relative;
