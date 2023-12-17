@@ -222,10 +222,10 @@ function App() {
           centerSlidePercentage={80}
           className="my-carousel"
         >
-          <div><img src="slider_1.png" alt=""  className="centered-image-carousel" /></div>
+          <div><img src="slider_4.png" alt=""  className="centered-image-carousel" /></div>
           <div><img src="slider_2.png" alt=""  className="centered-image-carousel" /></div>
           <div><img src="slider_3.png" alt=""  className="centered-image-carousel" /></div>
-          <div><img src="slider_4.png" alt=""  className="centered-image-carousel" /></div>
+          <div><img src="slider_1.png" alt=""  className="centered-image-carousel" /></div>
         </Carousel>
         <button onClick={goToPrevSlide} className="arrow-prev">
           <img src="left.png" alt="Prev" />
