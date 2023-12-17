@@ -8,9 +8,7 @@ const Modal = ({ showModal, setShowModal }) => {
       <div className="modal-backdrop">
         <div className="modal">
         <div className="close-button" onClick={() => setShowModal(false)}>X</div>
-          <h2>Bienvenue chez MANICA COUTURE</h2>
-          <p>“Un savoir faire d’exception, pour de sublimes créations ! “</p>
-  
+        <h3 className='header-modal'>MANICA COUTURE</h3>
           <form>
             <label>
               Prénom:

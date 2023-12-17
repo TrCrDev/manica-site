@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import FAQ from './FAQ';
+import AVIS from './AVIS';
 import Histoire from './Histoire';
 import Modal from './Modal';
 import Mail from './Mail';
@@ -38,7 +39,7 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3;
+  const totalSlides = 4;
 
   useEffect(() => {
     AOS.init({
@@ -73,6 +74,7 @@ function App() {
           <ul>
             <li onClick={() => navigateTo('accueil')}>Accueil</li>
             <li onClick={() => navigateTo('mon-histoire')}>Mon Histoire</li>
+            <li onClick={() => navigateTo('avis')}>Avis</li>
             <li onClick={() => navigateTo('faq')}>FAQ</li>
           </ul>
         </nav>
@@ -83,6 +85,8 @@ function App() {
   <Histoire />
 ) : currentPage === 'faq' ? (
   <FAQ />
+) : currentPage === 'avis' ? (
+    <AVIS />
 ) : (
   <>
       <div data-aos="fade-up" data-aos-duration="2000">
@@ -205,11 +209,34 @@ function App() {
         <VideoComponentDressPearlage></VideoComponentDressPearlage>
           </div>
       </div>
+      <div className="space-100px"></div>
 
+          <div className="carousel-container">
+        <Carousel
+          selectedItem={currentSlide}
+          onChange={(index) => setCurrentSlide(index)}
+          showThumbs={false}
+          showStatus={false}
+          infiniteLoop={true}
+          centerMode={true}
+          centerSlidePercentage={80}
+          className="my-carousel"
+        >
+          <div><img src="slider_1.png" alt=""  className="centered-image-carousel" /></div>
+          <div><img src="slider_2.png" alt=""  className="centered-image-carousel" /></div>
+          <div><img src="slider_3.png" alt=""  className="centered-image-carousel" /></div>
+          <div><img src="slider_4.png" alt=""  className="centered-image-carousel" /></div>
+        </Carousel>
+        <button onClick={goToPrevSlide} className="arrow-prev">
+          <img src="left.png" alt="Prev" />
+        </button>
+        <button onClick={goToNextSlide} className="arrow-next">
+          <img src="right.png" alt="Next" />
+        </button>
+      </div>
 
-
-      <div className="space-30px"></div>
-
+<div className="space-100px"></div>
+      
       <div className="concept-section">
         <img src="5th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="700"  />
         <div className="space-50px"></div>
@@ -249,6 +276,10 @@ function App() {
             <img src="mail.png" alt="Email" />
             <p><strong>Email</strong></p>
           </div>
+        </div>
+        <div className='space-30px'></div>
+        <div className="description-rdv">
+          Vous pouvez contactez directement Manica au <b>06.23.55.53.34</b>
         </div>
       </div>
 
@@ -296,96 +327,8 @@ function App() {
         </div>
       </div> 
         <div className="space-30px"></div>
-
-        <img src="8.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-        <img src="ny.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        MANICA c’est avant tout une très belle rencontre...
-        Passionnée par son métier et ultra douée pour donner vie à la robe que j’avais imaginé.<br></br>
-        Des échanges et conseils sur la création, en passant par la prise de mesures, le suivi de la fabrication à l’atelier, jusqu’à l’essayage, tout à été parfait !<br></br>
-        Osez franchir le pas de la création et personnalisation, votre robe sera unique comme cette journée que vous apprêtez à vivre !
-        Je la recommande les yeux fermés ! 
-        </p>
-        <img src="9.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-        <img src="yv.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        Un grand MERCI à MANICA d’avoir réalisé ma magnifique robe de mariée sur mesure et personnalisée.<br></br>
-        Un accompagnement au top, de la confection de la robe, du choix du tissu jusqu’au jour du mariage, j’ai eu de la chance de l’avoir à mes côtés.<br></br>
-        Ma robe a fait son effet et j’en suis encore très reconnaissante.
-        Un énorme MERCI MANICA ! 
-        </p>
-        <img src="10.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-        <img src="my.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        Un grand MERCI à MANICA d’avoir réalisé ma magnifique robe de mariée sur mesure et personnalisée.<br></br>
-        Un accompagnement au top, de la confection de la robe, du choix du tissu jusqu’au jour du mariage, j’ai eu de la chance de l’avoir à mes côtés.<br></br>
-        Ma robe a fait son effet et j’en suis encore très reconnaissante.
-        Un énorme MERCI MANICA ! 
-        </p>
-        <img src="11.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-
-        <img src="la.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        MANICA c’est avant tout une très belle rencontre...
-        Passionnée par son métier et ultra douée pour donner vie à la robe que j’avais imaginé.<br></br>
-        Des échanges et conseils sur la création, en passant par la prise de mesures, le suivi de la fabrication à l’atelier, jusqu’à l’essayage, tout à été parfait !<br></br>
-        Osez franchir le pas de la création et personnalisation, votre robe sera unique comme cette journée que vous apprêtez à vivre !
-        Je la recommande les yeux fermés ! 
-        </p>
-        <img src="12.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" />
-
-
-
-        <img src="lo.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        Pas de mots, simplementt et clairement incroyable !!
-        Je n’ai pas hésité à faire confectionner ma robe de mariée sirène sur mesure par MANICA.<br></br>
-        Son service irréprochable, sa bienveillance très appréciée et ses rassurants conseils m’ont permis de voir venir le jour J arriver avec plus de confiance !<br></br>
-        Merci pour tout, je recommande ses services.<br></br>
-        Je suis venue de LAUSANNE sans regret !
-        </p>
-        <img src="13.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-
-
-        <img src="ju.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        Je recommande MANICA à 700% la meilleure créatrice de robes de mariée.<br></br>
-        Les matières et les détails de ma robe sont exceptionnels !<br></br>
-        Merci pour tout ! 
-        </p>
-        <img src="14.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
-
-
-
-
-        <img src="el.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700" />
-        <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
-        J’ai  fais appel aux services de MANICA pour ma robe de mariée sur mesure.<br></br>
-        J’ai été très satisfaite. <br></br>
-        J’ai eu la robe de princesse que je voulais tant.<br></br>
-        MANICA est très professionnelle et à l’écoute, elle saura satisfaire vos exigences.<br></br>
-        Je la recommande ! 
-        </p>
-
-
+        <p className='description-copyright'>COPYRIGHT 2023-MANICA COUTURE &copy;</p>
       </div>
-
-
-
-
-
-
-
       </>
       )}
     </div>

@@ -10,7 +10,14 @@
     align-items: center;
     z-index: 2000; 
   }
-
+  .header-modal{
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;
+  }
+  .desc-modal{
+    font-family: 'Cormorant SC', serif;
+    letter-spacing: 5px;
+  }
   .close-button {
     position: absolute; 
     top: 10px; 
