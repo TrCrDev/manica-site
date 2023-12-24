@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&display=swap');
+
+
 .App {
   text-align: center;
   display: flex;
@@ -9,8 +13,71 @@
   overflow-x: hidden;
 }
 
+.title{
+  font-family: 'Cormorant SC', serif;
+  font-size: 2.9em;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
 
 
+.title-header {
+  font-family: 'Cormorant SC', serif;
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: 0.4em;
+  white-space: nowrap; 
+}
+
+@media (max-width: 768px) { 
+  .title-header {
+    font-size: 1.5em; 
+  }
+}
+
+@media (max-width: 480px) {
+  .title-header {
+    font-size: 1.5em; 
+  }
+}
+
+.RDVtitle{
+  font-family: 'Cormorant SC', serif;
+  font-size: 2.9em;
+  font-weight: 500;
+}
+
+
+.subtitle{
+  font-family: 'Cormorant SC', serif;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+
+.subtitle-header{
+  font-family: 'Cormorant SC', serif;
+  font-size: 0.5em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+}
+
+
+.title-trait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+
+}
+
+
+
+
+.manica-title{
+  font-family: 'Poiret One';
+  font-weight: 100;
+}
 
 
 .nav-menu ul {
@@ -64,11 +131,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 40px;
+  padding-bottom: 0px;
 }
 
 .header-title-image {
   max-width: 80%;
-  width: 500px;
+  width: 350px;
   margin: 0 auto;
 }
 
@@ -87,6 +155,9 @@
 }
 
 
+.main-content{
+  margin-top: -45px;
+}
 
 
 
@@ -118,12 +189,35 @@
 
 
 .concept-section{
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 100px;
+  max-width: 90%;
+
 
 }
 
+.concept-section1{
+  margin-bottom: 20px;
+  max-width: 90%;
+
+}
+
+
+.nobottom{
+  margin-bottom: -35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 500px; 
+
+}
+
+
 .line-container {
   margin: 30px;
+  margin-top: -20px;
   position: relative;
   width: 100%;
   height: 20px;
@@ -167,7 +261,8 @@
 
 
 .description {
-  width: 70%;
+  max-width: 95%;
+  width: 500px; 
   margin: 50px auto 50px auto;
   text-align: justify;
   line-height: 32px;
@@ -178,7 +273,8 @@
 
 
 .description-creatrice {
-  width: 70%;
+  max-width: 95%;
+  width: 500px; 
   margin: 50px auto 50px auto;
   text-align: justify;
   line-height: 30px;
@@ -188,7 +284,8 @@
 }
 
 .description-rdv {
-  width: 70%;
+  max-width: 95%;
+  width: 500px; 
   margin: 50px auto 50px auto;
   text-align: justify;
   line-height: 30px;
@@ -197,7 +294,8 @@
 }
 
 .description-copyright {
-  width: 70%;
+  max-width: 95%;
+  width: 500px; 
   margin: 50px auto 50px auto;
   font-family: 'Cormorant SC', serif;
   font-size: 15px;
@@ -213,12 +311,21 @@
   word-spacing: 6px;
 }
 
-.centered-image {
+.centered-image, .video {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 95%;
   width: 500px; 
+}
+
+.centered-image1, .video1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 500px; 
+  margin-bottom: -45px;
 }
 
 .centered-image-carousel {
@@ -254,6 +361,16 @@
   width: 500px; 
 }
 
+
+.title-imagefull{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  width: 95%; 
+}
+
+
 .title-image3{
   display: block;
   margin-left: auto;
@@ -288,6 +405,7 @@
 .img-section{
   margin: 0 0 140px;
   transform: rotate(90deg);
+  width: 70%;
 }
 
 
@@ -312,16 +430,16 @@
 
 .icon{
   margin-top: 35px;
-  width:100px;
-  height:100px;
+  width:75px;
+  height:75px;
 }
 
 .icon img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:100px;
-  height:100px;
+  width:75px;
+  height:75px;
 }
 
 .icon p {
@@ -329,7 +447,7 @@
 }
 
 .my-carousel {
-  max-width: 95%;
+  max-width: 80%;
   width: 500px; 
   margin: 0 auto; 
 }
@@ -353,32 +471,27 @@
 
 
 
-.carousel-container {
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
+  margin-top: -90px;
 }
 
-.my-carousel {
-  margin-bottom: 40px; /* space for arrows */
+.carousel-container {
+  flex-grow: 1; 
 }
 
 .arrow-prev, .arrow-next {
-  position: absolute;
-  bottom: -40px; /* adjust as necessary */
   cursor: pointer;
   background: none;
   border: none;
-}
-
-.arrow-prev {
-  left: 20%; /* adjust as necessary */
-}
-
-.arrow-next {
-  right: 22%; /* adjust as necessary */
+  z-index: 10;
 }
 
 .arrow-prev img, .arrow-next img {
-  width: 40px; /* adjust as necessary */
+  width: 40px;
 }
 
 

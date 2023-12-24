@@ -63,9 +63,13 @@ function App() {
 
 
 
-<div className="site-header">
+    <div className="site-header">
         <div className="header">
-          <img src="title.svg" alt="Title" className="header-title-image" />
+          <h1 ></h1>
+          <h1 className="title-header" >MANICA COUTURE <br></br> <h1 className="subtitle-header">-LYON-</h1></h1>
+        
+
+          
           <div className="menu-icon-container" onClick={toggleMenu}>
             <img src="menu.svg" alt="Menu" className="menu-icon" />
           </div>
@@ -78,7 +82,7 @@ function App() {
             <li onClick={() => navigateTo('faq')}>FAQ</li>
           </ul>
         </nav>
-      </div>
+    </div>
 
 
       {currentPage === 'mon-histoire' ? (
@@ -89,6 +93,7 @@ function App() {
     <AVIS />
 ) : (
   <>
+      <div className="space-100px"></div>
       <div data-aos="fade-up" data-aos-duration="2000">
       <VideoComponent></VideoComponent>
       </div>
@@ -102,7 +107,9 @@ function App() {
       </div>
 
       <div className="concept-section">
-        <img src="1st.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="700" />
+      <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >NOTRE CONCEPT</h1>
+      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Un savoir faire sur mesure”</h1>
+        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200" >
             MANICA vous propose des créations de robes de mariée haut de gamme, à l’imaginaire infini.
@@ -114,14 +121,16 @@ function App() {
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600"  >
             Votre robe de mariée devient une réalité sur mesure, conçue spécialement pour vous.
           </div>
+          
         </div>
-
-
         <img src="1_1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800" />
       </div>
 
+
       <div className="concept-section">
-        <img src="2nd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="700" />
+      <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >UN SERVICE HAUT DE GAMME</h1>
+      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Une étroite collaboration”...</h1>
+        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
           Au delà de la couture, c’est une vraie relation que nous partageons avec nos futures mariées, 
@@ -134,7 +143,20 @@ function App() {
         <img src="2.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" />
       </div>
 
-      <div className="rdv-section">
+
+
+
+
+
+
+
+
+
+
+
+      
+
+      <div className="concept-section1">
         <img src="rdv-title.svg" alt="" className="rdv-image" data-aos="fade-right" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
@@ -143,31 +165,44 @@ function App() {
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600" >
           les premières bases de la conception de votre robe et de programmer une rencontre au show room.
           </div>
-        
         </div>
       </div>
 
 
-      <div className="showroom-section">
-        <img src="showroom-title.svg" alt="" className="showroom-image"data-aos="fade-left" data-aos-duration="700" />
+      <div className="concept-section">
+      <img src="showroom-title.svg" alt="" className="showroom-image" data-aos="fade-right" data-aos-duration="700" />
         <div className="description">
-          <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
-          Ensemble, nous sélectionnerons les matières et prendrons vos mesures. <br></br>
+        <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
+          Ensemble, nous sélectionnerons les matières et prendrons vos mesures. <br></br><br></br>
           </div>
-          <div className='space-30px'></div>
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600" >
           Il est essentiel pour nous d'accorder du temps et de l'importance aux moindres détails, créant ainsi une pièce d'exception.
           </div>
+
         </div>
-      </div>
-      <div className='space-30px'></div>
-      <div className="img-section">
         <img src="3.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600"  />
       </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
            
-      <div className="concept-section">
-        <img src="3rd.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="700"  />
+      <div className="concept-section1">
+      <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >AU SERVICE DE LA MARIÉE</h1>
+      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Une rencontre qui crée du lien”</h1>
+        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        
         <div className="description">
 
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400"  >
@@ -181,14 +216,16 @@ function App() {
         </div>
         <img src="4_1.png" alt="" className="centered-image"  />
         <div className="space-30px"></div>
-        <img src="4_2.png" alt="" className="centered-image" />
-        <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400"  >
+        <img src="4_2.png" alt="" className="centered-image1" />
+        <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" className="video1"  >
           <VideoComponentDressFinal></VideoComponentDressFinal>
           </div>
       </div>
 
       <div className="concept-section">
-        <img src="4th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="700"  />
+      <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >DE LA QUALITÉ</h1>
+      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Détails, excellence , haute couture“ </h1>
+        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400"  >
         l’Excellence que nous mettons à votre service se manifeste à travers 
@@ -202,44 +239,47 @@ function App() {
 
         
         </div>
-        <div data-aos="zoom-in" >
+        <div data-aos="zoom-in" className="nobottom" >
         <VideoComponentPearl></VideoComponentPearl>
           </div>
-        <div data-aos="zoom-in"  >
+        <div data-aos="zoom-in" className="video" >
         <VideoComponentDressPearlage></VideoComponentDressPearlage>
           </div>
       </div>
-      <div className="space-100px"></div>
 
-          <div className="carousel-container">
-        <Carousel
-          selectedItem={currentSlide}
-          onChange={(index) => setCurrentSlide(index)}
-          showThumbs={false}
-          showStatus={false}
-          infiniteLoop={true}
-          centerMode={true}
-          centerSlidePercentage={80}
-          className="my-carousel"
-        >
-          <div><img src="slider_4.png" alt=""  className="centered-image-carousel" /></div>
-          <div><img src="slider_2.png" alt=""  className="centered-image-carousel" /></div>
-          <div><img src="slider_3.png" alt=""  className="centered-image-carousel" /></div>
-          <div><img src="slider_1.png" alt=""  className="centered-image-carousel" /></div>
-        </Carousel>
-        <button onClick={goToPrevSlide} className="arrow-prev">
-          <img src="left.png" alt="Prev" />
-        </button>
-        <button onClick={goToNextSlide} className="arrow-next">
-          <img src="right.png" alt="Next" />
-        </button>
-      </div>
+      <div className="carousel-wrapper">
+  <button onClick={goToPrevSlide} className="arrow-prev">
+    <img src="left.png" alt="Prev" />
+  </button>
+
+  <div className="carousel-container">
+    <Carousel
+      selectedItem={currentSlide}
+      onChange={(index) => setCurrentSlide(index)}
+      showThumbs={false}
+      showStatus={false}
+      infiniteLoop={true}
+      centerMode={true}
+      centerSlidePercentage={100}
+      className="my-carousel"
+    >
+      <div><img src="slider_4.png" alt="" className="centered-image-carousel" /></div>
+      <div><img src="slider_2.png" alt="" className="centered-image-carousel" /></div>
+      <div><img src="slider_3.png" alt="" className="centered-image-carousel" /></div>
+      <div><img src="slider_1.png" alt="" className="centered-image-carousel" /></div>
+    </Carousel>
+  </div>
+
+  <button onClick={goToNextSlide} className="arrow-next">
+    <img src="right.png" alt="Next" />
+  </button>
+</div>
+
 
 <div className="space-100px"></div>
       
       <div className="concept-section">
-        <img src="5th.svg" alt="" className="title-image3" data-aos="zoom-in" data-aos-duration="700"  />
-        <div className="space-50px"></div>
+        <h1 className="manica-title" data-aos="zoom-in" data-aos-duration="700">MANICA</h1>
         <img src="7.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
         <div className="description-creatrice">
 
@@ -256,14 +296,15 @@ function App() {
 
        
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800"  >
-        <img src="6th.svg" alt="" className="title-image2" data-aos="zoom-in" data-aos-duration="700"  />
+        <img src="6th.svg" alt="" className="title-imagefull" data-aos="zoom-in" data-aos-duration="700"  />
         </div>
 
       </div>
 
 
-      <div className="concept-section" data-aos="zoom-in" data-aos-duration="700" >
-        <img src="prendrdv.png" alt="" className="title-image3" />
+      <div className="concept-section1" data-aos="zoom-in" data-aos-duration="700" >
+      <h1 className="RDVtitle" data-aos="zoom-in" data-aos-duration="700" >PRENDRE RENDEZ-VOUS</h1>
+        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description-rdv">
           Nous mettons tout en oeuvre pour répondre rapidement à votre demande.<br></br><br></br>Chaque demande est importante pour nous. 
         </div>
@@ -326,9 +367,15 @@ function App() {
           </div>
         </div>
       </div> 
-        <div className="space-30px"></div>
-        <p className='description-copyright'>COPYRIGHT 2023-MANICA COUTURE &copy;</p>
       </div>
+
+      <footer className="footer">
+  <div className="space-30px"></div>
+  <p className='description-copyright'>
+    COPYRIGHT 2023 - MANICA COUTURE &copy;
+  </p>
+</footer>
+
       </>
       )}
     </div>

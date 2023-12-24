@@ -8,7 +8,7 @@ const Histoire = () => {
       <div className="space-50px"></div>
       <div className="space-50px"></div>
 
-      <img src="mon-histoire.svg" alt="" className="centered-image" />
+      <img src="mon-histoire.svg" alt="" className="centered-image0" />
       <div className="space-50px"></div>
 
 

@@ -1,70 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
 
 .modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2000; 
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000; 
+}
 
-.header-modal{
+.header-modal {
   font-family: 'Cormorant SC', serif;
   letter-spacing: 5px;
 }
 
-  .close-button {
-    position: absolute; 
-    top: 10px; 
-    right: 10px; 
-    cursor: pointer; 
-    font-size: 20px; 
-    font-weight: bold; 
-  }
-  
-  .modal {
-    position: relative;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 80%;
-    margin: auto;
-  }
-  
-  
-  .modal form label {
-    margin-bottom: 5px; 
-    display: block; 
-  }
-  
-  
-  .modal form input, .modal form textarea, .modal form button {
-    width: 100%; 
-    margin-bottom: 20px; 
-  }
-  
-  
-  .modal form button {
-    margin-bottom: 0;
-  }
+.close-button {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  cursor: pointer; 
+  font-size: 20px; 
+  font-weight: bold; 
+}
 
+.modal {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
 
-  .modal textarea {
-    min-height: 100px; 
-    max-height: 200px; 
-    overflow-y: auto; 
-    width: 100%; 
-    padding: 10px; 
-    box-sizing: border-box; 
-    resize: vertical; 
-  }
-  
-  
+.modal form input, .modal form textarea {
+  width: calc(100% - 30px); /* Adjust padding as necessary */
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  box-sizing: border-box;
+}
+
+.modal form input::placeholder, .modal form textarea::placeholder {
+  color: #ccc;
+  font-family: 'Cormorant SC', serif;
+  letter-spacing: 1px;
+}
+
+.modal form input:focus, .modal form textarea:focus {
+  outline: none;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  display: block;
+  width: auto;
+  margin: 0 auto 20px auto;
+}
+
+.modal textarea {
+  min-height: 100px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  padding: 10px;
+  resize: vertical;
+}

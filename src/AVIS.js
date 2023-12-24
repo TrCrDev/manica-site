@@ -3,9 +3,8 @@ import './App.css';
 
 const AVIS = () => {
   return (
-    <div>
-≈      <div className="space-50px"></div>
-      <div className="space-50px"></div>
+    <div className="concept-section">
+≈      <div className="space-200px"></div>
 
 <img src="ny.svg" alt="" className="small-centered-image" data-aos="zoom-in" data-aos-duration="700"  />
 <p className="description" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400">
