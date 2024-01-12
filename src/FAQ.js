@@ -9,7 +9,7 @@ const questionsAndAnswers = [
   },
   {
     question: "Combien de temps à l’avance dois-je vous contacter ?",
-    answer: "Entre et 6 mois. Pour une confection en urgence, contacter la créatrice."
+    answer: "Entre 3 et 6 mois.Pour une confection en urgence, contacter la créatrice."
   },
   {
     question: "Avez-vous des modèles de robes de mariée à essayer ?",
@@ -31,7 +31,7 @@ const FAQ = () => {
   return (
     <div className="concept-section">
       <div className="space-200px"></div>
-      <h3 className='title-faq'>Questions fréquentes</h3>
+      <h3 className='title-faq'>Questions réponses</h3>
       <div className="faq-content">
       {questionsAndAnswers.map((qa, index) => (
         <div key={index} className="faq-item">

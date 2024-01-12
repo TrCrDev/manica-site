@@ -5,10 +5,25 @@ const Histoire = () => {
   return (
     <div>
       <div className="space-200px"></div>
-      <div className="space-50px"></div>
-      <div className="space-50px"></div>
 
-      <img src="mon-histoire.svg" alt="" className="centered-image0" />
+
+      <div>
+      <h1 className="subtitle">MES DEBUTS</h1>
+      <p className='description'>ORIGINAIRE DE TUNISIE, LES MARIAGES DANS NOTRE CULTURE SONT GRANDIOSES !<br/>L'ÉLÉGANCE DE NOS ROBES A AGIT COMME UNE SOURCE D'INSPIRATION, ME POUSSANT À DÉBUTER LA CRÉATION DE MES PROPRES TENUES DE SOIRÉE...</p>
+      </div>
+      <div>
+      <h1 className="subtitle">MON CHEMIN CRÉATIF</h1>
+      <p className='description'>SÉDUITE DANS UN PREMIER TEMPS PAR L'ÉLÉGANCE INTEMPORELLE DE LA "KESWA", LA CÉLÈBRE ROBE TRADITIONNELLE TUNISIENNE ORNÉES DE PIERRES ET DE LUMIÈRES ;<br/> C'EST APRÈS PLUS DE 15 ANS D'EXPÉRIENCE QUE MON VOYAGE CRÉATIF À CONTINUER VERS L'UNIVERS DE LA ROBE DE MARIÉE EN DONNANT VIE À DES CRÉATIONS UNIQUES...</p>
+      </div>
+      <div>
+      <h1 className="subtitle">UN SAVOIR-FAIRE D'EXCEPTION...</h1>
+      <p className='description'>C'EST CE SAVOIR-FAIRE, COMBINÉ AU BONHEUR DE CULTIVER DE VÉRITABLES LIENS AVEC MES CLIENTES, QUI A ÉVEILLÉ EN MOI LE DÉSIR D'EXPLORER DAVANTAGE CET UNIVERS.<br/> AINSI EST NÉE MA PASSION: CELLE DE VOUS HABILLEZ VOUS, FUTURES MARIÉES, EN DONNANT VIE À LA ROBE DE VOS RÊVES, CELLE QUI ATTEND D'ÊTRE IMAGINÉE.</p>
+      </div>
+      <div>
+      <h1 className="subtitle">…POUR DE SUBLIMES CRÉATIONS</h1>
+      <p className='description'>UNE COMPLICITÉ CHALEUREUSE S'ÉTABLIT AVEC CHAQUE MARIÉE, CRÉANT AINSI LE TERRAIN PROPICE À LA MAGIE.<br/> JE M'EMPARE DE VOS IDÉES, DE VOS RÊVES ET DE VOS INSPIRATIONS POUR DONNER VIE À UNE ROBE QUI REFLÈTERA PARFAITEMENT VOTRE PERSONNALITÉ.<br/>
+BIENVENUE DANS MON UNIVERS OÙ CHAQUE ROBE EST UNE ŒUVRE D'ART CONQUE SPÉCIALEMENT POUR VOUS.</p>
+      </div>
       <div className="space-50px"></div>
 
 

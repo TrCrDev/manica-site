@@ -39,7 +39,7 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 4;
+  const totalSlides = 3;
 
   useEffect(() => {
     AOS.init({
@@ -263,10 +263,9 @@ function App() {
       centerSlidePercentage={100}
       className="my-carousel"
     >
-      <div><img src="slider_4.png" alt="" className="centered-image-carousel" /></div>
+      <div><img src="slider_1.png" alt="" className="centered-image-carousel" /></div>
       <div><img src="slider_2.png" alt="" className="centered-image-carousel" /></div>
       <div><img src="slider_3.png" alt="" className="centered-image-carousel" /></div>
-      <div><img src="slider_1.png" alt="" className="centered-image-carousel" /></div>
     </Carousel>
   </div>
 

@@ -14,3 +14,34 @@
     max-width: 95%;
     width: 500px; 
   }
+
+  .description {
+    max-width: 95%;
+    width: 500px; 
+    text-align: justify;
+    line-height: 32px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 15px;
+    word-spacing: 6px;
+  }
+
+  .concept-section{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    max-width: 90%;
+  
+  }
+
+  .subtitle{
+    font-family: 'Cormorant SC', serif;
+    font-size: 2em;
+    font-weight: 100;
+  }
+
+  .title{
+    font-family: 'Cormorant SC', serif;
+    font-size: 2.9em;
+    font-weight: 500;
+    margin-bottom: -10px;
+  }
