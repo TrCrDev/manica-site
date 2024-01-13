@@ -313,8 +313,8 @@ function App() {
           <p><strong>Whatsapp</strong></p>
         </div>
           <div className="icon" onClick={() => setShowMail(true)}>
-            <img src="mail.png" alt="Email" />
-            <p><strong>Email</strong></p>
+            <img src="instacolor.png" alt="Email" />
+            <p><strong>Instagram</strong></p>
           </div>
         </div>
         <div className='space-30px'></div>
