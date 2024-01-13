@@ -30,7 +30,6 @@ const Modal = ({ showModal, setShowModal }) => {
           <input type="text" name="prenom" onChange={handleChange} value={formData.prenom} placeholder="Prénom:" />
           <input type="text" name="ville" onChange={handleChange} value={formData.ville} placeholder="Ville:" />
           <input type="date" name="date" onChange={handleChange} value={formData.date} placeholder="Date de l’évènement:" />
-          <input type="file" name="inspirations" placeholder="Photos ou vidéos de vos inspirations, idées..." multiple />
           <textarea name="message" onChange={handleChange} value={formData.message} placeholder="Votre message:"></textarea>
           <button type="submit">Envoyer</button>
         </form>
