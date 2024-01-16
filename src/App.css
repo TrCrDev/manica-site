@@ -28,11 +28,19 @@
   font-size: 3vw;
 }
 
+.menu-icon-container{
+  margin-top: -40px;
+  }
+
 
 @media (max-width: 768px) {
   .title-header {
     font-size: 6vw;
   }
+
+  .menu-icon-container{
+    margin-top: -25px;
+    }
 }
 
 
@@ -40,6 +48,9 @@
   .title-header {
     font-size: 4vw;
   }
+
+
+
 }
 
 
@@ -155,8 +166,9 @@
   .menu-icon {
     width: 30px; 
   }
-}
 
+
+}
 
 .main-content{
   margin-top: -45px;
