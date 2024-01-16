@@ -65,7 +65,6 @@ function App() {
 
     <div className="site-header">
         <div className="header">
-          <h1 ></h1>
           <h1 className="title-header" >MANICA COUTURE <br></br> <h1 className="subtitle-header">-LYON-</h1></h1>
         
 
