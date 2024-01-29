@@ -294,10 +294,13 @@ function App() {
         Votre satisfaction est ma plus grande récompense, laissez moi vous accompagnez dans cette aventure.
         </div>
 
-       
+
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800"  >
-        <img src="6th.svg" alt="" className="title-imagefull" data-aos="zoom-in" data-aos-duration="700"  />
-        </div>
+        <div className='description-creatrice-signature '>
+       Votre amour est unique, votre robe le sera aussi. <br></br><br></br> 
+       <dd> <dd> <dd> <dd> <dd>  Manica</dd></dd></dd></dd></dd>
+       </div>
+               </div>
 
       </div>
 
