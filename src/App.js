@@ -223,7 +223,7 @@ function App() {
 
       <div className="concept-section">
       <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >DE LA QUALITÉ</h1>
-      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Détails, excellence , haute couture“ </h1>
+      <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Détails, excellence , haute couture” </h1>
         <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400"  >
@@ -259,6 +259,8 @@ function App() {
       showStatus={false}
       infiniteLoop={true}
       centerMode={true}
+      interval = {1800}
+      autoPlay = {true}
       centerSlidePercentage={100}
       className="my-carousel"
     >
