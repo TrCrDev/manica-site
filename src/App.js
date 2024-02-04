@@ -98,7 +98,7 @@ function App() {
       </div>
 
       <div className="main-content">
-        <img src="intro.svg" alt="" className="title-image" data-aos="zoom-in" data-aos-duration="700"/>
+        <img src="intro.svg" alt="Creatrice de robe de mariee sur mesure" className="title-image" data-aos="zoom-in" data-aos-duration="700"/>
       </div>
       <div className="space-50px"></div>
       <div className="line-container" data-aos="zoom-in" data-aos-duration="700" >
@@ -108,7 +108,7 @@ function App() {
       <div className="concept-section">
       <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >NOTRE CONCEPT</h1>
       <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Un savoir faire sur mesure”</h1>
-        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="1st.svg" alt="separateur de ligne" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200" >
             MANICA vous propose des créations de robes de mariée haut de gamme, à l’imaginaire infini.
@@ -122,14 +122,14 @@ function App() {
           </div>
           
         </div>
-        <img src="1_1.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800" />
+        <img src="1_1.png" alt="Atelier creation robe de mariee sur mesure" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="800" />
       </div>
 
 
       <div className="concept-section">
       <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >UN SERVICE HAUT DE GAMME</h1>
       <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Une étroite collaboration”...</h1>
-        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="1st.svg" alt="separateur de ligne" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
           Au delà de la couture, c’est une vraie relation que nous partageons avec nos futures mariées, 
@@ -139,7 +139,7 @@ function App() {
           </div>
 
         </div>
-        <img src="2.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="2.png" alt="presentation creation d'une robe de mariee" className="centered-image" data-aos="zoom-in" data-aos-duration="700" />
       </div>
 
 
@@ -156,7 +156,7 @@ function App() {
       
 
       <div className="concept-section1">
-        <img src="rdv-title.svg" alt="" className="rdv-image" data-aos="fade-right" data-aos-duration="700" />
+        <img src="rdv-title.svg" alt="etape rendez vous pour definir le besoin de creation de la robe" className="rdv-image" data-aos="fade-right" data-aos-duration="700" />
         <div className="description">
           <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
             Notre premier rendez-vous téléphonique nous permettra grâce à un échange intense de vous proposer <br></br>
@@ -169,7 +169,7 @@ function App() {
 
 
       <div className="concept-section">
-      <img src="showroom-title.svg" alt="" className="showroom-image" data-aos="fade-right" data-aos-duration="700" />
+      <img src="showroom-title.svg" alt="etape rendez vous pour au showroom pour voir les modeles de robe" className="showroom-image" data-aos="fade-right" data-aos-duration="700" />
         <div className="description">
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" >
           Ensemble, nous sélectionnerons les matières et prendrons vos mesures. <br></br><br></br>
@@ -179,7 +179,7 @@ function App() {
           </div>
 
         </div>
-        <img src="3.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600"  />
+        <img src="3.png" alt="Design de la robe de mariee sur un patron" className="centered-image" data-aos="zoom-in" data-aos-duration="700" data-aos-delay="600"  />
       </div>
 
 
@@ -200,7 +200,7 @@ function App() {
       <div className="concept-section1">
       <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >AU SERVICE DE LA MARIÉE</h1>
       <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Une rencontre qui crée du lien”</h1>
-        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="1st.svg" alt="separateur de ligne" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         
         <div className="description">
 
@@ -213,9 +213,9 @@ function App() {
           <div className="space-30px"></div>
 
         </div>
-        <img src="4_1.png" alt="" className="centered-image"  />
+        <img src="4_1.png" alt="fabrication de la robe de mariee sur manequin vue de profil" className="centered-image"  />
         <div className="space-30px"></div>
-        <img src="4_2.png" alt="" className="centered-image1" />
+        <img src="4_2.png" alt="fabrication de la robe de mariee sur manequin vue de face" className="centered-image1" />
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400" className="video1"  >
           <VideoComponentDressFinal></VideoComponentDressFinal>
           </div>
@@ -224,7 +224,7 @@ function App() {
       <div className="concept-section">
       <h1 className="title" data-aos="zoom-in" data-aos-duration="700" >DE LA QUALITÉ</h1>
       <h1 className="subtitle" data-aos="zoom-in" data-aos-duration="700" >“Détails, excellence , haute couture” </h1>
-        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="1st.svg" alt="separateur de ligne" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description">
         <div data-aos="zoom-in" data-aos-duration="700" data-aos-delay="400"  >
         l’Excellence que nous mettons à votre service se manifeste à travers 
@@ -248,7 +248,7 @@ function App() {
 
       <div className="carousel-wrapper">
   <button onClick={goToPrevSlide} className="arrow-prev">
-    <img src="left.png" alt="Prev" />
+    <img src="left.png" alt="bouton de navigation gauche" />
   </button>
 
   <div className="carousel-container">
@@ -271,7 +271,7 @@ function App() {
   </div>
 
   <button onClick={goToNextSlide} className="arrow-next">
-    <img src="right.png" alt="Next" />
+    <img src="right.png" alt="bouton de navigation droit"  />
   </button>
 </div>
 
@@ -280,7 +280,7 @@ function App() {
       
       <div className="concept-section">
         <h1 className="manica-title" data-aos="zoom-in" data-aos-duration="700">MANICA</h1>
-        <img src="7.png" alt="" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
+        <img src="7.png" alt="la creatrice de robe de mariee sur mesure a Lyon" className="centered-image" data-aos="zoom-in" data-aos-duration="700"  />
         <div className="description-creatrice">
 
 
@@ -317,7 +317,7 @@ function App() {
           <p><strong>Whatsapp</strong></p>
         </div>
           <div className="icon" onClick={() => setShowMail(true)}>
-            <img src="instacolor.png" alt="Email" />
+            <img src="instacolor.png" alt="instragram" />
             <p><strong>Instagram</strong></p>
           </div>
         </div>
@@ -331,7 +331,7 @@ function App() {
         <div className="left-line"></div>
       </div>
       <div className="concept-section">
-        <img src="7th.svg" alt="" className="title-image3"  />
+        <img src="7th.svg" alt="section pour les mariee" className="title-image3"  />
         <div   >
         <VideoComponentMarie></VideoComponentMarie>
         </div>
@@ -342,7 +342,7 @@ function App() {
       </div>
 
         <div className="concept-section" data-aos="zoom-in" data-aos-duration="700" >
-      <img src="follow.png" alt="" className="title-image4" />
+      <img src="follow.png" alt="lien instagram" className="title-image4" />
         <div className="space-50px"></div>
         <div className="contact-icons">
           <div className="icon">
@@ -352,7 +352,7 @@ function App() {
           </div>
           <div className="icon">
             <a href='https://www.facebook.com/manica.lyon/?locale=fr_FR'>
-            <img src="facebook.png" alt="Facebook" />
+            <img src="facebook.png" alt="lien facebook" />
             </a>
           </div>
         </div>
@@ -360,7 +360,7 @@ function App() {
 
         <div className="space-30px"></div>
         <div className="concept-section" data-aos="zoom-in" data-aos-duration="700" >
-      <img src="parledenous.png" alt="" className="title-image4" />
+      <img src="parledenous.png" alt="lien mariage.netz" className="title-image4" />
         <div className="space-50px"></div>
         <div className="contact-icons">
           <div className="icon">
