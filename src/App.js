@@ -261,6 +261,7 @@ function App() {
       centerMode={true}
       interval = {1800}
       autoPlay = {true}
+      showIndicators ={false}
       centerSlidePercentage={100}
       className="my-carousel"
     >
