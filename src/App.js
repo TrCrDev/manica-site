@@ -264,9 +264,9 @@ function App() {
       centerSlidePercentage={100}
       className="my-carousel"
     >
-      <div><img src="slider_1.png" alt="" className="centered-image-carousel" /></div>
-      <div><img src="slider_2.png" alt="" className="centered-image-carousel" /></div>
-      <div><img src="slider_3.png" alt="" className="centered-image-carousel" /></div>
+      <div><img src="slider_1.png" alt="un concept unique" className="centered-image-carousel" /></div>
+      <div><img src="slider_2.png" alt="un savoir faire artisanal" className="centered-image-carousel" /></div>
+      <div><img src="slider_3.png" alt="Dentelle et ornement de qualite" className="centered-image-carousel" /></div>
     </Carousel>
   </div>
 
@@ -307,7 +307,7 @@ function App() {
 
       <div className="concept-section1" data-aos="zoom-in" data-aos-duration="700" >
       <h1 className="RDVtitle" data-aos="zoom-in" data-aos-duration="700" >PRENDRE RENDEZ-VOUS</h1>
-        <img src="1st.svg" alt="" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
+        <img src="1st.svg" alt="separateur de ligne" className="title-trait" data-aos="zoom-in" data-aos-duration="700" />
         <div className="description-rdv">
           Nous mettons tout en oeuvre pour répondre rapidement à votre demande.<br></br><br></br>Chaque demande est importante pour nous. 
         </div>
@@ -360,12 +360,12 @@ function App() {
 
         <div className="space-30px"></div>
         <div className="concept-section" data-aos="zoom-in" data-aos-duration="700" >
-      <img src="parledenous.png" alt="lien mariage.netz" className="title-image4" />
+      <img src="parledenous.png" alt="lien mariage.net" className="title-image4" />
         <div className="space-50px"></div>
         <div className="contact-icons">
           <div className="icon">
             <a href='https://www.mariages.net/robe-de-mariee/manica--e263031'>
-            <img src="recommariagenet.png" />
+            <img src="recommariagenet.png" alt='lien mariage.net'/>
             </a>
           </div>
         </div>
