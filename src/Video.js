@@ -12,11 +12,10 @@ const VideoComponent = () => {
 
   return (
     <div className="video-container">
-       <div dangerouslySetInnerHTML={{ __html: `
       <video
         ref={videoRef}
         loop
-        autoPlay
+        autoPlay={true}
         playsInline
         muted
         preload="auto"
@@ -25,7 +24,6 @@ const VideoComponent = () => {
       >
         <source src="video.mp4" type="video/mp4" />
       </video>
-      ` }}></div>
     </div>
   );
 };
